@@ -11,7 +11,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'VanillaWeb - Webpack',
-      template: './src/index.html'
+      template: './public/index.html'
     }),
     new CleanWebpackPlugin()
   ],
