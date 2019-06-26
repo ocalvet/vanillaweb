@@ -1,1 +1,8 @@
-console.log('we are working');
+import App from './App';
+
+const init = () => {
+  console.log('Initializing app');
+  App().init('#app');
+};
+
+init();
