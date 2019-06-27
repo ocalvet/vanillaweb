@@ -1,4 +1,4 @@
-import App from './App';
+import App from './App/App';
 
 const init = () => {
   console.log('Initializing app');
