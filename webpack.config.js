@@ -8,6 +8,14 @@ module.exports = {
   output: {
     filename: '[name].js'
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['css-loader']
+      }
+    ]
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'VanillaWeb - Webpack',
