@@ -1,7 +1,6 @@
-import styles from './App.css';
+import './App.css';
 
 export default (document = window.document) => {
-  console.log(styles);
   return {
     init(selector = '#root') {
       const container = document.querySelector(selector);
