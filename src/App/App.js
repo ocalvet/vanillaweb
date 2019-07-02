@@ -1,5 +1,3 @@
-import './App.css';
-
 export default (document = window.document) => {
   return {
     init(selector = '#root') {
