@@ -1,4 +1,5 @@
 export default root => {
+  const header = window.document.createElement('header');
   const nav = window.document.createElement('nav');
   const mobileNavigation = window.document.createElement('div');
   mobileNavigation.className = 'nav-wrapper container';
@@ -8,6 +9,7 @@ export default root => {
   logoLink.className = `brand-logo`;
   logoLink.innerText = 'Logo';
   mobileNavigation.appendChild(logoLink);
-  root.appendChild(nav);
+  header.appendChild(nav);
+  root.appendChild(header);
   return true;
 };
