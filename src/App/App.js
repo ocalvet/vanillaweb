@@ -10,6 +10,7 @@ export default (document = window.document) => {
         Header(container);
         Content(container);
         Footer(container);
+        M.AutoInit();
       } else {
         throw Error(`Cannot find element with selector ${selector}`);
       }
